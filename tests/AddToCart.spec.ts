@@ -64,4 +64,6 @@ test('Add product to cart test @master @regression', async ({ page }) => {
     // Step 8: Assert success message is visible
     expect(await productPage.isConfirmationMessageVisible()).toBeTruthy();
   }
+
+  
 });
